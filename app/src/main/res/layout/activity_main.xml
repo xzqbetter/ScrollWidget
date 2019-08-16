@@ -6,56 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.example.snap.ReboundScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="111111111"
-            android:background="@android:color/holo_red_light"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="ReboundScrollView"
+            android:onClick="onReboundScrollViewClick"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="2222222222"/>
+            android:layout_height="wrap_content"
+            android:text="SlideMenu"
+            android:onClick="onSlideMenuClick"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="444444444"
-            android:background="@android:color/holo_blue_light"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="5555555555"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="6666666666"
-            android:background="@android:color/darker_gray"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="777777777"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="8888888888"
-            android:background="@android:color/holo_purple"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:text="999999999"/>
-
-
-    </com.example.snap.ReboundScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
